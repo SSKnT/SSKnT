@@ -5,7 +5,7 @@ Welcome to my GitHub profile! I'm a passionate developer with an interest in var
 ## About Me
 
 - 🔭 I’m currently working on various open-source projects, including web apps and tools that aim to solve real-world problems.
-- 🌱 I’m constantly learning and exploring new technologies like GraphQL, Serverless, and Next.js.
+- 🌱 I’m constantly learning and exploring new technologies like GraphQL, Serverless.
 - 👯 I’m looking to collaborate on exciting projects that make a difference, especially in tech and software engineering.
 - 💬 Ask me about anything tech-related, and I'll be happy to help or discuss!
 - 📫 How to reach me: [sohaibshaukat.dev@gmail.com](mailto:sohaibshaukat.dev@gmail.com)
