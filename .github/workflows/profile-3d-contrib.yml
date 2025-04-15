@@ -25,4 +25,4 @@ jobs:
           target_branch: output-3d-contrib
           build_dir: profile-3d-contrib
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
