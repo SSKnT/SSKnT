@@ -70,13 +70,8 @@ Feel free to reach out to me through any of the following platforms:
 ## GitHub Stats & Activity
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/<your-username>/<your-username>/output-3d-contrib/night.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/<your-username>/<your-username>/output-3d-contrib/day.svg" />
-    <img alt="GitHub Profile 3D Contribution Graph" src="https://raw.githubusercontent.com/<your-username>/<your-username>/output-3d-contrib/day.svg" />
-  </picture>
+  <img src="https://raw.githubusercontent.com/SSKnT/SSKnT/output-3d-contrib/night.svg" />
 </p>
-
 
 ![Profile Views](https://komarev.com/ghpvc/?username=SSKnT)
 ![Followers](https://img.shields.io/github/followers/SSKnT?label=Followers&style=social)
