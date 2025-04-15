@@ -69,7 +69,13 @@ Feel free to reach out to me through any of the following platforms:
 
 ## GitHub Stats & Activity
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SSKnT&hide=css,html)
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/<your-username>/<your-username>/output-3d-contrib/night.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/<your-username>/<your-username>/output-3d-contrib/day.svg" />
+    <img alt="GitHub Profile 3D Contribution Graph" src="https://raw.githubusercontent.com/<your-username>/<your-username>/output-3d-contrib/day.svg" />
+  </picture>
+</p>
 
 
 ![Profile Views](https://komarev.com/ghpvc/?username=SSKnT)
