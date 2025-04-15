@@ -69,7 +69,7 @@ Feel free to reach out to me through any of the following platforms:
 
 ## GitHub Stats & Activity
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SSKnT&hide=css)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SSKnT&hide=css,html)
 
 
 ![Profile Views](https://komarev.com/ghpvc/?username=SSKnT)
