@@ -69,8 +69,8 @@ Feel free to reach out to me through any of the following platforms:
 
 ## GitHub Stats & Activity
 
-![GitHub Contributions](https://github-readme-stats.vercel.app/api?username=SSKnT&show_icons=true&count_private=true&hide=prs&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SSKnT&layout=compact&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SSKnT&hide=css)
+
 
 ![Profile Views](https://komarev.com/ghpvc/?username=SSKnT)
 ![Followers](https://img.shields.io/github/followers/SSKnT?label=Followers&style=social)
