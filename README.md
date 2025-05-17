@@ -1,13 +1,14 @@
-# Hi there, I'm Sohaib! 👋
+<h1 align="left">Hi there, I'm Sohaib 👋</h1>
 
-Welcome to my GitHub profile! I'm a passionate developer with an interest in various technologies and programming languages. Here's a little bit about me:
+<p align="left">
+  <b>Full-Stack Developer | Open Source Enthusiast | Always Curious</b><br/>
+  🚀 Building useful web apps • 📚 Always learning • 🌍 Based in Pakistan
+</p>
 
-## About Me
-
-- 🔭 I’m currently working on various open-source projects, including web apps and tools that hopefully solve something.
-- 🌱 I’m constantly learning and exploring new technologies like GraphQL, Serverless maybe.
-- 💬 Ask me about anything tech-related, and I'll be happy to help or discuss!
-- 📫 How to reach me: [sohaibshaukat.dev@gmail.com](mailto:sohaibshaukat.dev@gmail.com)
+<p align="left">
+  <a href="mailto:sohaibshaukat.dev@gmail.com">📧 Email</a> •
+  <a href="https://www.linkedin.com/in/sohaib-shaukat-7s">🔗 LinkedIn</a>
+</p>
 
 ## My Skills
 
@@ -52,20 +53,22 @@ Welcome to my GitHub profile! I'm a passionate developer with an interest in var
   <img src="https://img.shields.io/badge/-SQLAlchemy-7A0A0A?style=flat&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy" />
 </div>
 
+## Featured Projects
 
-## My Projects
-
-Here are a few projects I've been working on:
-
-- [**FitnessPal WebApp**](https://github.com/SSKnT/my-fitnesspal): A fitness tracking web app with workout management, real-time chat, and community features.
-- [**Utilify WebApp**](https://github.com/SSKnT/utilify-webapp): A utility app for personal management and productivity, integrating various productivity tools.
-- [**PixelPulse Store**](https://github.com/SSKnT/PixelPulse-Store): An e-commerce platform with custom-built features for selling digital products.
-
-## Get in Touch
-
-Feel free to reach out to me through any of the following platforms:
-
-- [LinkedIn](https://www.linkedin.com/in/sohaib-shaukat-7s)
+<p align="center">
+  <a href="https://github.com/SSKnT/my-fitnesspal" style="margin-right: 15px;">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SSKnT&repo=my-fitnesspal&theme=dark" />
+  </a>
+  <a href="https://github.com/SSKnT/utilify-webapp" style="margin-right: 15px;">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SSKnT&repo=utilify-webapp&theme=dark" />
+  </a>
+  <a href="https://github.com/SSKnT/cryptkeep" style="margin-right: 15px;">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SSKnT&repo=cryptkeep&theme=dark" />
+  </a>
+  <a href="https://github.com/SSKnT/scene-skipper-backend">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SSKnT&repo=scene-skipper-backend&theme=dark" />
+  </a>
+</p>
 
 ## GitHub Stats & Activity
 
