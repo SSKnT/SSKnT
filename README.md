@@ -1,8 +1,8 @@
 <h1 align="left">Hi there, I'm Sohaib 👋</h1>
 
 <p align="left">
-  <b>Full-Stack Developer | Open Source Enthusiast | Always Curious</b><br/>
-  🚀 Building useful web apps • 📚 Always learning • 🌍 Based in Pakistan
+  <b>I code, I break things, I fix them — then I write about it.</b><br/>
+  Full-stack dev • Open-source tinkerer • Powered by sleep deprivation 😴 • Based in Pakistan 🇵🇰
 </p>
 
 <p align="left">
@@ -80,4 +80,3 @@
 ![Followers](https://img.shields.io/github/followers/SSKnT?label=Followers&style=social)
 
 
-Thanks for visiting my profile! Have a great day! 😊
