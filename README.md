@@ -6,8 +6,8 @@
 </p>
 
 <p align="left">
-  <a href="mailto:sohaibshaukat.dev@gmail.com">📧 Email</a> •
-  <a href="https://www.linkedin.com/in/sohaib-shaukat-7s">🔗 LinkedIn</a>
+  <a href="mailto:sohaibshaukat.dev@gmail.com" title="Email"><img src="https://img.shields.io/badge/Email-%23D14836?style=flat&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/sohaib-shaukat-7s" title="LinkedIn"><img src="https://img.shields.io/badge/LinkedIn-%230077B5?style=flat&logo=linkedin&logoColor=white" /></a>
 </p>
 
 ## My Skills
