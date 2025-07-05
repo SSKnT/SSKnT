@@ -65,7 +65,7 @@
   <a href="https://github.com/SSKnT/cryptkeep" style="margin-right: 15px;">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=SSKnT&repo=cryptkeep&theme=dark" />
   </a>
-  <a href="https://github.com/SSKnT/scene-skipper-backend">
+  <a href="https://github.com/SSKnT/recurrence-solver">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=SSKnT&repo=scene-skipper-backend&theme=dark" />
   </a>
 </p>
