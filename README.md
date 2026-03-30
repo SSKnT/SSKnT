@@ -10,26 +10,19 @@
   <a href="https://github.com/SSKnT"><img src="https://img.shields.io/badge/GitHub-39FF14?style=for-the-badge&logo=github&logoColor=0B0F1A" alt="GitHub" /></a>
 </p>
 
-<img src="https://komarev.com/ghpvc/?username=SSKnT&label=NEON+VISITORS&style=for-the-badge&color=00f5ff" alt="Profile views" />
-<img src="https://img.shields.io/github/followers/SSKnT?label=NEON+FOLLOWERS&style=for-the-badge&color=ff2e88" alt="Followers" />
+<img src="https://komarev.com/ghpvc/?username=SSKnT&label=VISITORS&style=for-the-badge&color=00f5ff" alt="Profile views" />
+<img src="https://img.shields.io/github/followers/SSKnT?label=FOLLOWERS&style=for-the-badge&color=ff2e88" alt="Followers" />
 
 </div>
 
-## Night City Brief
+## Profile
 
-```text
-$ whoami
-> Sohaib Shaukat
+**Full-stack developer** shipping web apps, APIs, and automation systems | **Based in Pakistan** 🇵🇰
 
-$ role
-> Full-stack developer (Web + APIs + Automation)
-
-$ location
-> Pakistan
-
-$ status
-> shipping, breaking, fixing, repeating
-```
+- 💻 Building with **JavaScript**, **Python**, **C++/C#**
+- 🛠️ Stacks: React · Next.js · Node.js · Django · Docker · AWS
+- 🔧 Currently: shipping, breaking, fixing, repeating
+- 📍 Open to collaboration on OSS and product builds
 
 ## Arsenal
 
