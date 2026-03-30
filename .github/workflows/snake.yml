@@ -20,8 +20,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/ocean.gif?color_snake=ff2e88&color_dots=%230b0f1a,%23103f4a,%2300f5ff,%2339ff14,%23ff2e88
-            dist/ocean.svg?color_snake=ff2e88&color_dots=%230b0f1a,%23103f4a,%2300f5ff,%2339ff14,%23ff2e88
+            dist/ocean.gif?color_snake=39d353&color_dots=%230d1117,%230e4429,%23006d32,%2326a641,%2339d353
+            dist/ocean.svg?color_snake=39d353&color_dots=%230d1117,%230e4429,%23006d32,%2326a641,%2339d353
 
       - name: Push snake assets to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
