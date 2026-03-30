@@ -14,13 +14,15 @@ permissions:
 jobs:
   metrics:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Create build directory
         run: mkdir -p build
 
+      # 🔹 Base Metrics
       - name: Base metrics panel
         uses: lowlighter/metrics@latest
         with:
@@ -34,8 +36,9 @@ jobs:
           plugin_lines_history_limit: 1
           config_timezone: Asia/Karachi
           filename: build/metrics.base.svg
-          output_action: none
+          output_action: local
 
+      # 🔹 Languages Metrics
       - name: Language metrics panel
         uses: lowlighter/metrics@latest
         with:
@@ -54,8 +57,9 @@ jobs:
           plugin_languages_recent_days: 21
           config_timezone: Asia/Karachi
           filename: build/metrics.languages.svg
-          output_action: none
+          output_action: local
 
+      # 🔹 Achievements Metrics
       - name: Achievements panel
         uses: lowlighter/metrics@latest
         with:
@@ -70,12 +74,12 @@ jobs:
           plugin_achievements_limit: 0
           config_timezone: Asia/Karachi
           filename: build/metrics.achievements.svg
-          output_action: none
+          output_action: local
 
+      # 🔹 Deploy to output branch (modern + reliable)
       - name: Push metrics SVGs to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          target_branch: output-metrics
-          build_dir: build
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          publish_branch: output-metrics
