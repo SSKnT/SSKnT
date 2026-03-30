@@ -17,14 +17,7 @@
 
 ## About
 
-```
-💻 Full-stack | Web Apps + APIs + Automation
-🌍 Based in Pakistan
-🛠️  Tech: JavaScript, Python, C++, C#
-📚 Stacks: React · Next.js · Node.js · Django · Docker · AWS
-🚀 Status: Building, breaking, learning, shipping
-🤝 Open to: OSS contributions & product collaborations
-```
+Full-stack developer building web applications and automation systems. Based in Pakistan. I ship code, break things, fix them, and repeat.
 
 ## Arsenal
 
