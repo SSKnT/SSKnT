@@ -73,8 +73,8 @@
 ## Engineering Pulse
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SSKnT&show_icons=true&hide_border=true&bg_color=0f172a&title_color=38bdf8&text_color=cbd5e1&icon_color=6366f1&rank_icon=github" alt="GitHub stats" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SSKnT&layout=compact&hide_border=true&bg_color=0f172a&title_color=38bdf8&text_color=cbd5e1" alt="Top languages" width="49%" />
+  <img src="https://raw.githubusercontent.com/SSKnT/SSKnT/main/build/metrics.base.svg" alt="Core metrics" width="100%" />
+  <img src="https://raw.githubusercontent.com/SSKnT/SSKnT/main/build/metrics.languages.svg" alt="Language metrics" width="100%" />
 </div>
 
 <p align="right">
