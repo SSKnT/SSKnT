@@ -15,13 +15,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate neon snake assets
+      - name: Generate snake contribution graph
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/ocean.gif?color_snake=39d353&color_dots=%230d1117,%230e4429,%23006d32,%2326a641,%2339d353
-            dist/ocean.svg?color_snake=39d353&color_dots=%230d1117,%230e4429,%23006d32,%2326a641,%2339d353
+            dist/ocean.gif?palette=github-dark
+            dist/ocean.svg?palette=github-dark
 
       - name: Push snake assets to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
