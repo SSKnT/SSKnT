@@ -26,11 +26,12 @@ jobs:
       - name: Base metrics panel
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: SSKnT
           template: classic
           base: header, activity, community, repositories, metadata
           base_indepth: yes
+          repositories_skipped: SSKnT/SSKnT
           plugin_lines: yes
           plugin_lines_sections: base
           plugin_lines_history_limit: 1
@@ -42,7 +43,7 @@ jobs:
       - name: Language metrics panel
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: SSKnT
           template: classic
           base: ""
@@ -50,11 +51,9 @@ jobs:
           plugin_languages_ignored: html, css
           plugin_languages_limit: 10
           plugin_languages_analysis_timeout: 15
-          plugin_languages_categories: programming
-          plugin_languages_recent_categories: programming
+          plugin_languages_categories: programming, markup
           plugin_languages_details: percentage
           plugin_languages_indepth: yes
-          plugin_languages_recent_days: 21
           config_timezone: Asia/Karachi
           filename: build/metrics.languages.svg
           output_action: local

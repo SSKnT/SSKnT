@@ -73,8 +73,8 @@
 ## Engineering Pulse
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/SSKnT/SSKnT/main/build/metrics.base.svg" alt="Core metrics" width="100%" />
-  <img src="https://raw.githubusercontent.com/SSKnT/SSKnT/main/build/metrics.languages.svg" alt="Language metrics" width="100%" />
+  <img src="https://raw.githubusercontent.com/SSKnT/SSKnT/main/build/metrics.base.svg" alt="Core metrics" width="49%" />
+  <img src="https://raw.githubusercontent.com/SSKnT/SSKnT/main/build/metrics.languages.svg" alt="Language metrics" width="49%" />
 </div>
 
 <p align="right">
