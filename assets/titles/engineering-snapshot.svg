@@ -1,0 +1,19 @@
+<svg width="980" height="96" viewBox="0 0 980 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-snap" x1="0" y1="0" x2="980" y2="96" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070b14"/>
+      <stop offset="1" stop-color="#101827"/>
+    </linearGradient>
+    <linearGradient id="edge-snap" x1="0" y1="0" x2="980" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#f43f5e"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 16L18 0H980V96H0V16Z" fill="url(#bg-snap)"/>
+  <path d="M0 16L18 0H560" stroke="#1f2a3f"/>
+  <rect x="0" y="92" width="980" height="4" fill="url(#edge-snap)"/>
+  <path d="M26 64L62 28H88L52 64H26Z" fill="#38bdf8" opacity="0.9"/>
+  <path d="M70 64L106 28H130L94 64H70Z" fill="#f43f5e" opacity="0.85"/>
+  <text x="164" y="58" fill="#e5eefc" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="800" letter-spacing="4">ENGINEERING SNAPSHOT</text>
+  <rect x="164" y="67" width="410" height="2" fill="#92d7ff" opacity="0.8"/>
+</svg>
