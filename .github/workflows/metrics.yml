@@ -28,9 +28,7 @@ jobs:
           plugin_lines_history_limit: 1
           config_timezone: Asia/Karachi
           filename: metrics.base.svg
-          output_action: commit
-          committer_branch: output-metrics
-          committer_message: "chore: update profile metrics"
+          output_action: none
 
       - name: Language metrics panel
         uses: lowlighter/metrics@latest
@@ -50,9 +48,7 @@ jobs:
           plugin_languages_recent_days: 21
           config_timezone: Asia/Karachi
           filename: metrics.languages.svg
-          output_action: commit
-          committer_branch: output-metrics
-          committer_message: "chore: update language metrics"
+          output_action: none
 
       - name: Achievements panel
         uses: lowlighter/metrics@latest
@@ -68,6 +64,12 @@ jobs:
           plugin_achievements_limit: 0
           config_timezone: Asia/Karachi
           filename: metrics.achievements.svg
-          output_action: commit
-          committer_branch: output-metrics
-          committer_message: "chore: update achievements metrics"
+          output_action: none
+
+      - name: Push metrics SVGs to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output-metrics
+          build_dir: .
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
