@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&duration=2200&pause=850&color=00F5FF&center=true&vCenter=true&repeat=true&width=980&lines=SOHAIB+SHAUKAT+%7C+FULL-STACK+DEVELOPER;BUILDING+PRODUCTS+%2B+AUTOMATION+SYSTEMS;CYBERPUNK+MODE%3A+ONLINE" alt="Neon typing banner" />
+# <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=48&duration=3000&pause=2000&color=FF2E88&background=0B0F1A00&center=true&vCenter=true&repeat=false&width=700&lines=SOHAIB+SHAUKAT" alt="Glitch name" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&duration=2200&pause=850&color=00F5FF&center=true&vCenter=true&repeat=true&width=980&lines=FULL-STACK+DEVELOPER;BUILDING+PRODUCTS+%2B+AUTOMATION+SYSTEMS" alt="Neon typing banner" />
 
 <p>
   <a href="mailto:sohaibshaukat.dev@gmail.com"><img src="https://img.shields.io/badge/Email-FF2E88?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
@@ -36,6 +38,18 @@ $ status
 </p>
 
 ## Live Metrics
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/SSKnT/SSKnT/output-metrics/metrics.base.svg" alt="Core GitHub metrics" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/SSKnT/SSKnT/output-metrics/metrics.languages.svg" alt="Language metrics" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/SSKnT/SSKnT/output-metrics/metrics.achievements.svg" alt="Achievements metrics" width="100%" />
+</p>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=SSKnT&theme=react-dark&bg_color=0D1117&color=00F5FF&line=FF2E88&point=39FF14&area=true&hide_border=true" alt="Activity graph" />
