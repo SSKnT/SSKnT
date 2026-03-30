@@ -1,0 +1,49 @@
+<svg width="1280" height="170" viewBox="0 0 1280 170" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cosmic animated footer">
+  <defs>
+    <linearGradient id="footerBg" x1="0" y1="0" x2="1280" y2="170" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0b1120" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <linearGradient id="footerWave" x1="0" y1="0" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#38bdf8" />
+      <animate attributeName="x1" values="0;1280;0" dur="18s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="1280;2560;1280" dur="18s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <filter id="footerGlow" x="-20%" y="-30%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="170" fill="url(#footerBg)" rx="14" />
+
+  <g opacity="0.55">
+    <circle cx="92" cy="34" r="1.1" fill="#93c5fd" />
+    <circle cx="248" cy="58" r="0.9" fill="#c4b5fd" />
+    <circle cx="410" cy="38" r="1.1" fill="#38bdf8" />
+    <circle cx="588" cy="64" r="0.9" fill="#e2e8f0" />
+    <circle cx="746" cy="40" r="1.1" fill="#93c5fd" />
+    <circle cx="912" cy="62" r="0.9" fill="#c4b5fd" />
+    <circle cx="1072" cy="42" r="1.1" fill="#38bdf8" />
+    <circle cx="1228" cy="60" r="0.9" fill="#e2e8f0" />
+    <animateTransform attributeName="transform" type="translate" values="0 0;-14 0;0 0" dur="28s" repeatCount="indefinite" />
+  </g>
+
+  <path d="M0 112 C 140 88, 220 136, 360 112 C 500 88, 580 136, 720 112 C 860 88, 940 136, 1080 112 C 1160 100, 1220 102, 1280 112" fill="none" stroke="url(#footerWave)" stroke-width="2.3" filter="url(#footerGlow)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;-65 0;0 0" dur="20s" repeatCount="indefinite" />
+  </path>
+
+  <path d="M0 126 C 140 104, 220 148, 360 126 C 500 104, 580 148, 720 126 C 860 104, 940 148, 1080 126 C 1160 114, 1220 116, 1280 126" fill="none" stroke="#38bdf8" stroke-opacity="0.24" stroke-width="1.2" />
+
+  <text x="640" y="154" text-anchor="middle" fill="#94a3b8" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" letter-spacing="2.2">
+    BUILD. SHIP. SCALE.
+    <animate attributeName="opacity" values="0.55;0.9;0.55" dur="7s" repeatCount="indefinite" />
+  </text>
+</svg>

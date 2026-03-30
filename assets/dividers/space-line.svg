@@ -1,0 +1,34 @@
+<svg width="1200" height="60" viewBox="0 0 1200 60" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated glowing space divider">
+  <defs>
+    <linearGradient id="spaceGlow" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="25%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="75%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0f172a" />
+      <animate attributeName="x1" values="-1200;0;-1200" dur="14s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="0;1200;0" dur="14s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <filter id="softBloom" x="-20%" y="-300%" width="140%" height="700%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="60" fill="#0f172a" opacity="0.001" />
+  <line x1="40" y1="30" x2="1160" y2="30" stroke="url(#spaceGlow)" stroke-width="2.2" stroke-linecap="round" filter="url(#softBloom)">
+    <animate attributeName="opacity" values="0.65;1;0.65" dur="6s" repeatCount="indefinite" />
+  </line>
+  <circle cx="140" cy="30" r="1.6" fill="#38bdf8">
+    <animate attributeName="cx" values="140;1060;140" dur="11s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;1;0" dur="11s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="1020" cy="30" r="1.8" fill="#6366f1">
+    <animate attributeName="cx" values="1020;180;1020" dur="13s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;0.9;0" dur="13s" repeatCount="indefinite" />
+  </circle>
+</svg>

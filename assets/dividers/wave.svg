@@ -1,0 +1,39 @@
+<svg width="1200" height="140" viewBox="0 0 1200 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated cosmic wave divider">
+  <defs>
+    <linearGradient id="cosmicWave" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="35%" stop-color="#38bdf8" />
+      <stop offset="65%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#0f172a" />
+      <animate attributeName="x1" values="0;1200;0" dur="16s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="1200;2400;1200" dur="16s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <filter id="waveGlow" x="-10%" y="-30%" width="120%" height="160%">
+      <feGaussianBlur stdDeviation="2.4" result="b" />
+      <feMerge>
+        <feMergeNode in="b" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="140" fill="#0f172a" />
+
+  <path d="M0 84 C 120 48, 220 120, 340 84 C 460 48, 560 120, 680 84 C 800 48, 900 120, 1020 84 C 1100 60, 1140 64, 1200 84 L1200 140 L0 140 Z" fill="#1e293b" opacity="0.7" />
+
+  <path d="M0 78 C 120 42, 220 114, 340 78 C 460 42, 560 114, 680 78 C 800 42, 900 114, 1020 78 C 1100 54, 1140 58, 1200 78" fill="none" stroke="url(#cosmicWave)" stroke-width="2.4" filter="url(#waveGlow)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;-70 0;0 0" dur="18s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.65;1;0.65" dur="8s" repeatCount="indefinite" />
+  </path>
+
+  <circle cx="160" cy="72" r="1.2" fill="#93c5fd">
+    <animate attributeName="cy" values="72;66;72" dur="5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="620" cy="74" r="1.1" fill="#c4b5fd">
+    <animate attributeName="cy" values="74;67;74" dur="6.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="980" cy="70" r="1.2" fill="#38bdf8">
+    <animate attributeName="cy" values="70;64;70" dur="5.8s" repeatCount="indefinite" />
+  </circle>
+</svg>
