@@ -1,0 +1,23 @@
+<svg width="720" height="420" viewBox="0 0 720 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Manify project card">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="720" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="line2" x1="0" y1="0" x2="720" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+  </defs>
+  <rect width="720" height="420" rx="24" fill="url(#bg2)" />
+  <rect x="36" y="34" width="648" height="352" rx="18" fill="#0b1120" stroke="#1e293b" />
+  <text x="68" y="104" fill="#e2e8f0" font-family="Segoe UI, Ubuntu, sans-serif" font-size="44" font-weight="700">Manify</text>
+  <text x="68" y="144" fill="#c4b5fd" font-family="Segoe UI, Ubuntu, sans-serif" font-size="20">Freelancer SaaS Platform</text>
+  <text x="68" y="208" fill="#cbd5e1" font-family="Segoe UI, Ubuntu, sans-serif" font-size="18">Clients, projects, budgets, and delivery in one system.</text>
+  <text x="68" y="238" fill="#94a3b8" font-family="Segoe UI, Ubuntu, sans-serif" font-size="16">RBAC backend • Auth flows • Production-ready architecture</text>
+  <rect x="68" y="286" width="200" height="42" rx="10" fill="#111827" stroke="#6366f1" stroke-opacity="0.55" />
+  <text x="92" y="313" fill="#a5b4fc" font-family="Segoe UI, Ubuntu, sans-serif" font-size="17">Django + Next.js</text>
+  <line x1="68" y1="172" x2="652" y2="172" stroke="url(#line2)" stroke-width="2" opacity="0.7">
+    <animate attributeName="opacity" values="0.45;0.85;0.45" dur="6.5s" repeatCount="indefinite" />
+  </line>
+</svg>

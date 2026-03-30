@@ -6,69 +6,86 @@
   <p>
     <a href="https://sohaibshaukat.netlify.app">Portfolio</a>
     •
-    <a href="mailto:sohaibshaukat.dev@gmail.com">Email</a>
+    <a href="https://sohaibshaukat.netlify.app/resume.pdf">Resume</a>
   </p>
 </div>
 
 <img src="./assets/dividers/space-line.svg" alt="Glowing space divider" width="100%" />
 
-## About
-
-I design and ship SaaS products that solve practical problems at scale. My work sits at the intersection of product UX, resilient backend architecture, and automation-first engineering, from browser extensions to full production platforms.
-
-<img src="./assets/dividers/starfield.svg" alt="Animated starfield divider" width="100%" />
-
-## Tech Stack
+<p align="center">
+  <img src="./assets/dividers/orbit-center.svg" alt="Section divider center" width="78%" />
+</p>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,django,python,ts,postgres,redux,nodejs,docker,git,github,linux" alt="Tech stack icons" />
+  <img src="./assets/profile-points.svg" alt="Animated about points" width="100%" />
+</div>
+
+<p align="left">
+  <img src="./assets/dividers/orbit-left.svg" alt="Section divider left" width="48%" />
+</p>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,gatsby,django,fastapi,python,ts,js,postgres,mysql,mongodb,redis" alt="Tech stack row one" /><br/>
+  <img src="https://skillicons.dev/icons?i=nodejs,nginx,docker,vercel,postman,github,git,linux,bash,vscode,figma,graphql" alt="Tech stack row two" />
 </div>
 
 <img src="./assets/dividers/space-line.svg" alt="Glowing space divider" width="100%" />
 
-## Featured Products
+<p align="right">
+  <img src="./assets/dividers/orbit-right.svg" alt="Section divider right" width="48%" />
+</p>
 
-### SceneCue
-AI-powered browser extension that helps viewers skip sensitive scenes with precise timeline intelligence.
+| <a href="https://github.com/SSKnT/scenecue" target="_blank"><img src="./assets/projects/scenecue-card.svg" alt="SceneCue" width="320" height="186" /></a> | <a href="https://github.com/SSKnT/manify" target="_blank"><img src="./assets/projects/manify-card.svg" alt="Manify" width="320" height="186" /></a> |
+| :---: | :---: |
+| **[SceneCue](https://github.com/SSKnT/scenecue)** | **[Manify](https://github.com/SSKnT/manify)** |
+| AI extension that skips sensitive scenes with timestamp intelligence. | SaaS for freelancers to manage clients, projects, and budgets. |
+| <a href="https://github.com/SSKnT/utilify-webapp" target="_blank"><img src="./assets/projects/utilify-card.svg" alt="Utilify" width="320" height="186" /></a> | <a href="https://github.com/SSKnT/Accelarated-Downoader" target="_blank"><img src="./assets/projects/accelerated-downloader-card.svg" alt="Accelarated Downoader" width="320" height="186" /></a> |
+| **[Utilify](https://github.com/SSKnT/utilify-webapp)** [🌐](https://utilify-seven.vercel.app) | **[Accelarated Downoader](https://github.com/SSKnT/Accelarated-Downoader)** |
+| Utility platform for text, file, and workflow automation. | High-speed download utility built for practical automation workflows. |
 
-- Detects active media context and syncs scene metadata in real time.
-- Uses collaborative moderation workflows for safer, continuously improving results.
-- Built for speed, low-friction UX, and reliable playback behavior.
+<details><summary>See more projects</summary>
 
-### Manify
-Freelancer-focused SaaS operating system for managing clients, projects, finances, and growth.
+| Name | What it does | Stack |
+| --- | --- | --- |
+| **[dev-portfolio](https://github.com/SSKnT/dev-portfolio)** | Minimalist portfolio customized with your projects and personal brand. | Gatsby, JavaScript |
+| **[freelance-web-workflow](https://github.com/SSKnT/freelance-web-workflow)** | End-to-end workflow for building and managing freelance websites. | Web Workflow |
+| **[my-fitnesspal](https://github.com/SSKnT/my-fitnesspal)** | Fitness app with calorie tracking, logging, and progress insights. | React, Django |
+| **[recurrence-solver](https://github.com/SSKnT/recurrence-solver)** | Solver for recurrence relations with algorithm-analysis use cases. | Python, Streamlit |
+| **[cryptkeep](https://github.com/SSKnT/cryptkeep)** | Interactive CTF web app with puzzle-based security challenges. | Next.js, Tailwind |
+| **[Workplace-Management](https://github.com/SSKnT/Workplace-Management)** | Workplace management application for operational workflows. | C# |
+| **[React-weather](https://github.com/SSKnT/React-weather)** | Weather UI app built in React with clean client-side flows. | React, JavaScript |
+| **[PixelPulse-Store](https://github.com/SSKnT/PixelPulse-Store)** | Ecommerce-style Django web app focused on core store features. | Django |
+| **[Blog](https://github.com/SSKnT/Blog)** | Blog platform project built during early backend learning phase. | Python |
+| **[Text-Based-Game](https://github.com/SSKnT/Text-Based-Game)** | Command-line style game showcasing fundamentals and logic flow. | Python |
 
-- End-to-end workspace for delivery pipelines, budget visibility, and client collaboration.
-- Secure backend services with auth, role control, and scalable data modeling.
-- Structured as a real product, not a dashboard demo.
-
-### Utilify
-Utility platform for high-frequency text, file, and workflow automation tasks.
-
-- Combines multiple practical tools in one coherent interface.
-- Designed around time-saving flows and repeatable user actions.
-- Continuously expanded with product-grade features and optimization.
+</details>
 
 <img src="./assets/dividers/wave.svg" alt="Cosmic wave divider" width="100%" />
 
-## GitHub Pulse
+<p align="left">
+  <img src="./assets/dividers/orbit-left.svg" alt="Section divider left" width="48%" />
+</p>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SSKnT&show_icons=true&hide_border=true&bg_color=0f172a&title_color=38bdf8&text_color=cbd5e1&icon_color=6366f1" height="165" alt="GitHub stats" />
-  <img src="https://streak-stats.demolab.com?user=SSKnT&hide_border=true&background=0F172A&ring=38BDF8&fire=6366F1&currStreakLabel=38BDF8&sideNums=CBD5E1&currStreakNum=E2E8F0&sideLabels=94A3B8&dates=64748B" height="165" alt="GitHub streak" />
+  <img src="https://raw.githubusercontent.com/SSKnT/SSKnT/output-metrics/metrics.base.svg" alt="Core metrics" width="100%" />
+  <img src="https://raw.githubusercontent.com/SSKnT/SSKnT/output-metrics/metrics.languages.svg" alt="Language metrics" width="100%" />
 </div>
 
-## Activity Graph
+<p align="right">
+  <img src="./assets/dividers/orbit-right.svg" alt="Section divider right" width="48%" />
+</p>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SSKnT&bg_color=0f172a&color=38bdf8&line=6366f1&point=93c5fd&area=true&area_color=1e293b&hide_border=true" alt="Contribution activity graph" width="100%" />
+  <img src="https://raw.githubusercontent.com/SSKnT/SSKnT/output-snake/ocean.svg" alt="Snake activity" width="100%" />
 </div>
 
-<img src="./assets/dividers/starfield.svg" alt="Animated starfield divider" width="100%" />
+<p align="center">
+  <img src="./assets/dividers/orbit-center.svg" alt="Section divider center" width="78%" />
+</p>
 
-## Philosophy
-
-> "Great software feels inevitable: simple on the surface, deeply engineered underneath."
+<div align="center">
+  <img src="https://raw.githubusercontent.com/SSKnT/SSKnT/output-3d-contrib/night.svg" alt="3D contribution map" width="100%" />
+</div>
 
 <div align="center">
   <img src="./assets/footer.svg" alt="Cosmic footer" width="100%" />

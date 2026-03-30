@@ -1,0 +1,41 @@
+<svg width="1100" height="300" viewBox="0 0 1100 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated profile points">
+  <defs>
+    <linearGradient id="ppbg" x1="0" y1="0" x2="1100" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="ppline" x1="0" y1="0" x2="1100" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.1"/>
+      <stop offset="45%" stop-color="#38bdf8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1100" height="300" rx="18" fill="url(#ppbg)"/>
+
+  <line x1="120" y1="80" x2="980" y2="80" stroke="url(#ppline)" stroke-width="1.5"/>
+  <line x1="120" y1="150" x2="980" y2="150" stroke="url(#ppline)" stroke-width="1.5"/>
+  <line x1="120" y1="220" x2="980" y2="220" stroke="url(#ppline)" stroke-width="1.5"/>
+
+  <circle cx="120" cy="80" r="6" fill="#38bdf8">
+    <animate attributeName="cx" values="120;980;120" dur="14s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="980" cy="150" r="6" fill="#6366f1">
+    <animate attributeName="cx" values="980;120;980" dur="15s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="120" cy="220" r="6" fill="#93c5fd">
+    <animate attributeName="cx" values="120;980;120" dur="16s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="88" cy="80" r="4" fill="#38bdf8"/>
+  <circle cx="88" cy="150" r="4" fill="#6366f1"/>
+  <circle cx="88" cy="220" r="4" fill="#93c5fd"/>
+
+  <text x="120" y="58" fill="#e2e8f0" font-family="Segoe UI, Ubuntu, sans-serif" font-size="20" font-weight="700">Building Real SaaS Products</text>
+  <text x="120" y="128" fill="#e2e8f0" font-family="Segoe UI, Ubuntu, sans-serif" font-size="20" font-weight="700">Engineering Reliable Backend Systems</text>
+  <text x="120" y="198" fill="#e2e8f0" font-family="Segoe UI, Ubuntu, sans-serif" font-size="20" font-weight="700">Shipping Browser Extensions + Automation</text>
+
+  <text x="120" y="100" fill="#94a3b8" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">React • Next.js • FastAPI • Django • PostgreSQL</text>
+  <text x="120" y="170" fill="#94a3b8" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">Auth, RBAC, APIs, deployment pipelines with Nginx + Gunicorn</text>
+  <text x="120" y="240" fill="#94a3b8" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">Practical tools with product UX and performance-first architecture</text>
+</svg>

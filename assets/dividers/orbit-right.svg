@@ -1,0 +1,30 @@
+<svg width="560" height="90" viewBox="0 0 560 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cosmic section divider right">
+  <defs>
+    <linearGradient id="or" x1="0" y1="0" x2="560" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#38bdf8" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.95"/>
+    </linearGradient>
+    <filter id="org" x="-20%" y="-300%" width="160%" height="700%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="560" height="90" fill="#0f172a" opacity="0.001"/>
+  <line x1="34" y1="45" x2="526" y2="45" stroke="url(#or)" stroke-width="2.2" stroke-linecap="round" filter="url(#org)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="6.5s" repeatCount="indefinite"/>
+  </line>
+  <circle cx="508" cy="45" r="5" fill="#6366f1" opacity="0.95">
+    <animate attributeName="r" values="4.2;6.4;4.2" dur="5.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="508" cy="45" r="12" fill="none" stroke="#6366f1" stroke-opacity="0.35">
+    <animate attributeName="r" values="10;20;10" dur="8.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="444" cy="45" r="1.8" fill="#7dd3fc">
+    <animate attributeName="cx" values="444;48;444" dur="12.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0" dur="12.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>
