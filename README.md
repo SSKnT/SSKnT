@@ -15,14 +15,16 @@
 
 </div>
 
-## Profile
+## About
 
-**Full-stack developer** shipping web apps, APIs, and automation systems | **Based in Pakistan** 🇵🇰
-
-- 💻 Building with **JavaScript**, **Python**, **C++/C#**
-- 🛠️ Stacks: React · Next.js · Node.js · Django · Docker · AWS
-- 🔧 Currently: shipping, breaking, fixing, repeating
-- 📍 Open to collaboration on OSS and product builds
+```
+💻 Full-stack | Web Apps + APIs + Automation
+🌍 Based in Pakistan
+🛠️  Tech: JavaScript, Python, C++, C#
+📚 Stacks: React · Next.js · Node.js · Django · Docker · AWS
+🚀 Status: Building, breaking, learning, shipping
+🤝 Open to: OSS contributions & product collaborations
+```
 
 ## Arsenal
 
