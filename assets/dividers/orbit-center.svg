@@ -10,12 +10,12 @@
   </defs>
   <rect width="860" height="96" fill="#0f172a" opacity="0.001"/>
   <line x1="40" y1="48" x2="820" y2="48" stroke="url(#oc)" stroke-width="2.2" stroke-linecap="round">
-    <animate attributeName="opacity" values="0.45;1;0.45" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.92;0.6" dur="10s" repeatCount="indefinite"/>
   </line>
   <circle cx="430" cy="48" r="4.4" fill="#93c5fd">
     <animate attributeName="r" values="3.8;6;3.8" dur="4.6s" repeatCount="indefinite"/>
   </circle>
   <circle cx="430" cy="48" r="12" fill="none" stroke="#93c5fd" stroke-opacity="0.38">
-    <animate attributeName="r" values="10;21;10" dur="7.8s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="10;17;10" dur="9s" repeatCount="indefinite"/>
   </circle>
 </svg>

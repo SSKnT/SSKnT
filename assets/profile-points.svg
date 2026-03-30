@@ -18,13 +18,13 @@
   <line x1="120" y1="220" x2="980" y2="220" stroke="url(#ppline)" stroke-width="1.5"/>
 
   <circle cx="120" cy="80" r="6" fill="#38bdf8">
-    <animate attributeName="cx" values="120;980;120" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="5;7;5" dur="6s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="980" cy="150" r="6" fill="#6366f1">
-    <animate attributeName="cx" values="980;120;980" dur="15s" repeatCount="indefinite"/>
+  <circle cx="120" cy="150" r="6" fill="#6366f1">
+    <animate attributeName="r" values="5;7;5" dur="6.8s" repeatCount="indefinite"/>
   </circle>
   <circle cx="120" cy="220" r="6" fill="#93c5fd">
-    <animate attributeName="cx" values="120;980;120" dur="16s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="5;7;5" dur="7.3s" repeatCount="indefinite"/>
   </circle>
 
   <circle cx="88" cy="80" r="4" fill="#38bdf8"/>
