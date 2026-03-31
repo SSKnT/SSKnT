@@ -4,9 +4,13 @@
   <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=18&duration=3200&pause=900&color=38BDF8&center=true&vCenter=true&width=860&lines=Full-Stack+SaaS+Engineer;Building+real+products%2C+backend+systems%2C+and+automation+tools;React+%E2%80%A2+Next.js+%E2%80%A2+Django+%E2%80%A2+TypeScript+%E2%80%A2+PostgreSQL" alt="Typing intro" />
 
   <p>
-    <a href="https://sohaibshaukat.netlify.app">Portfolio</a>
-    •
-    <a href="https://sohaibshaukat.netlify.app/resume.pdf">Resume</a>
+    <a href="https://sohaibshaukat.netlify.app">
+      <img src="https://img.shields.io/badge/PORTFOLIO-0f172a?style=for-the-badge&logo=vercel&logoColor=38bdf8&labelColor=020617&color=0f172a" alt="Portfolio" />
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://sohaibshaukat.netlify.app/resume.pdf">
+      <img src="https://img.shields.io/badge/RESUME-1e1b4b?style=for-the-badge&logo=readthedocs&logoColor=a5b4fc&labelColor=0b1120&color=1e1b4b" alt="Resume" />
+    </a>
   </p>
 </div>
 
@@ -27,9 +31,15 @@
 ## Tech Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,gatsby,django,fastapi,python,ts,js,postgres,mysql,mongodb,redis" alt="Tech stack row one" /><br/>
-  <img src="https://skillicons.dev/icons?i=nodejs,nginx,docker,vercel,postman,github,git,linux,bash,vscode,figma,graphql" alt="Tech stack row two" />
+  <img src="./assets/tech-constellation.svg" alt="Tech constellation map" width="100%" />
 </div>
+
+<details>
+  <summary><strong>Stack Breakdown</strong></summary>
+  <p align="center">
+    Frontend: React, Next.js, TypeScript, Zustand • Backend: Django, FastAPI, Node.js, Python, PostgreSQL • Deployment: Docker, Nginx, Gunicorn, Vercel, GitHub CI
+  </p>
+</details>
 
 <img src="./assets/dividers/space-line.svg" alt="Glowing space divider" width="100%" />
 
@@ -63,8 +73,6 @@
 | **[Text-Based-Game](https://github.com/SSKnT/Text-Based-Game)** | Command-line style game showcasing fundamentals and logic flow. | Python |
 
 </details>
-
-<img src="./assets/dividers/wave.svg" alt="Cosmic wave divider" width="100%" />
 
 <p align="left">
   <img src="./assets/dividers/orbit-left.svg" alt="Section divider left" width="48%" />

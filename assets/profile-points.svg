@@ -1,41 +1,54 @@
-<svg width="1100" height="300" viewBox="0 0 1100 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated profile points">
+<svg width="1100" height="300" viewBox="0 0 1100 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sohaib personal intro card">
   <defs>
     <linearGradient id="ppbg" x1="0" y1="0" x2="1100" y2="300" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#0b1120"/>
       <stop offset="100%" stop-color="#111827"/>
     </linearGradient>
-    <linearGradient id="ppline" x1="0" y1="0" x2="1100" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.1"/>
-      <stop offset="45%" stop-color="#38bdf8" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.7"/>
+    <linearGradient id="ppcard" x1="260" y1="50" x2="840" y2="250" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#131f35"/>
+    </linearGradient>
+    <linearGradient id="ppstroke" x1="260" y1="0" x2="840" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.35"/>
     </linearGradient>
   </defs>
 
   <rect width="1100" height="300" rx="18" fill="url(#ppbg)"/>
 
-  <line x1="120" y1="80" x2="980" y2="80" stroke="url(#ppline)" stroke-width="1.5"/>
-  <line x1="120" y1="150" x2="980" y2="150" stroke="url(#ppline)" stroke-width="1.5"/>
-  <line x1="120" y1="220" x2="980" y2="220" stroke="url(#ppline)" stroke-width="1.5"/>
+  <g opacity="0.45">
+    <circle cx="120" cy="54" r="1" fill="#93c5fd"/>
+    <circle cx="232" cy="78" r="0.9" fill="#a5b4fc"/>
+    <circle cx="352" cy="52" r="1" fill="#e2e8f0"/>
+    <circle cx="760" cy="64" r="0.9" fill="#38bdf8"/>
+    <circle cx="892" cy="48" r="1" fill="#93c5fd"/>
+    <circle cx="996" cy="76" r="0.9" fill="#a5b4fc"/>
+    <circle cx="104" cy="240" r="1" fill="#e2e8f0"/>
+    <circle cx="248" cy="264" r="0.9" fill="#93c5fd"/>
+    <circle cx="862" cy="256" r="1" fill="#a5b4fc"/>
+    <circle cx="980" cy="236" r="0.9" fill="#38bdf8"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;-10 0;0 0" dur="24s" repeatCount="indefinite"/>
+  </g>
 
-  <circle cx="120" cy="80" r="6" fill="#38bdf8">
-    <animate attributeName="r" values="5;7;5" dur="6s" repeatCount="indefinite"/>
+  <rect x="260" y="52" width="580" height="196" rx="18" fill="url(#ppcard)" stroke="url(#ppstroke)"/>
+
+  <circle cx="550" cy="92" r="5" fill="#38bdf8">
+    <animate attributeName="r" values="4;6;4" dur="5.2s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="120" cy="150" r="6" fill="#6366f1">
-    <animate attributeName="r" values="5;7;5" dur="6.8s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="120" cy="220" r="6" fill="#93c5fd">
-    <animate attributeName="r" values="5;7;5" dur="7.3s" repeatCount="indefinite"/>
-  </circle>
 
-  <circle cx="88" cy="80" r="4" fill="#38bdf8"/>
-  <circle cx="88" cy="150" r="4" fill="#6366f1"/>
-  <circle cx="88" cy="220" r="4" fill="#93c5fd"/>
+  <text x="550" y="126" text-anchor="middle" fill="#e2e8f0" font-family="Segoe UI, Ubuntu, sans-serif" font-size="24" font-weight="700">
+    Powered by sleep deprivation.
+  </text>
 
-  <text x="120" y="58" fill="#e2e8f0" font-family="Segoe UI, Ubuntu, sans-serif" font-size="20" font-weight="700">Building Real SaaS Products</text>
-  <text x="120" y="128" fill="#e2e8f0" font-family="Segoe UI, Ubuntu, sans-serif" font-size="20" font-weight="700">Engineering Reliable Backend Systems</text>
-  <text x="120" y="198" fill="#e2e8f0" font-family="Segoe UI, Ubuntu, sans-serif" font-size="20" font-weight="700">Shipping Browser Extensions + Automation</text>
+  <text x="550" y="158" text-anchor="middle" fill="#94a3b8" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">
+    Full-stack builds, clean backends, and zero "works on my machine" energy.
+  </text>
 
-  <text x="120" y="100" fill="#94a3b8" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">React • Next.js • FastAPI • Django • PostgreSQL</text>
-  <text x="120" y="170" fill="#94a3b8" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">Auth, RBAC, APIs, deployment pipelines with Nginx + Gunicorn</text>
-  <text x="120" y="240" fill="#94a3b8" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">Practical tools with product UX and performance-first architecture</text>
+  <text x="550" y="188" text-anchor="middle" fill="#cbd5e1" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">
+    React | Next.js | Django | FastAPI | PostgreSQL
+  </text>
+
+  <text x="550" y="214" text-anchor="middle" fill="#cbd5e1" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">
+    Currently learning German between deploys.
+  </text>
 </svg>

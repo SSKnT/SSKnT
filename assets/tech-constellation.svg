@@ -1,0 +1,172 @@
+<svg width="1100" height="460" viewBox="0 0 1100 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tech legend constellation map">
+  <defs>
+    <linearGradient id="tcBg" x1="0" y1="0" x2="1100" y2="460" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#090f1c"/>
+      <stop offset="58%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#111c32"/>
+    </linearGradient>
+
+    <linearGradient id="tcEdge" x1="0" y1="0" x2="1100" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#a5b4fc" stop-opacity="0.46"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.25"/>
+    </linearGradient>
+
+    <filter id="tcGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .legendText { font: 700 13px "Segoe UI", Ubuntu, sans-serif; fill: #e2e8f0; letter-spacing: 1px; }
+      .nodeText { font: 600 11px "Segoe UI", Ubuntu, sans-serif; fill: #dbe7f7; letter-spacing: 0.4px; }
+    </style>
+  </defs>
+
+  <rect width="1100" height="460" rx="22" fill="url(#tcBg)"/>
+  <rect x="1" y="1" width="1098" height="458" rx="21" fill="none" stroke="url(#tcEdge)"/>
+
+  <g opacity="0.46">
+    <circle cx="52" cy="42" r="1" fill="#93c5fd"/>
+    <circle cx="132" cy="86" r="0.9" fill="#38bdf8"/>
+    <circle cx="206" cy="54" r="1.1" fill="#a5b4fc"/>
+    <circle cx="292" cy="112" r="0.9" fill="#e2e8f0"/>
+    <circle cx="372" cy="48" r="1" fill="#38bdf8"/>
+    <circle cx="454" cy="124" r="0.9" fill="#93c5fd"/>
+    <circle cx="542" cy="66" r="1.1" fill="#a5b4fc"/>
+    <circle cx="628" cy="140" r="0.9" fill="#e2e8f0"/>
+    <circle cx="710" cy="52" r="1" fill="#38bdf8"/>
+    <circle cx="792" cy="126" r="0.9" fill="#93c5fd"/>
+    <circle cx="874" cy="62" r="1.1" fill="#a5b4fc"/>
+    <circle cx="960" cy="134" r="0.9" fill="#e2e8f0"/>
+    <circle cx="1042" cy="74" r="1" fill="#38bdf8"/>
+    <circle cx="98" cy="186" r="0.9" fill="#93c5fd"/>
+    <circle cx="188" cy="232" r="1" fill="#a5b4fc"/>
+    <circle cx="284" cy="198" r="0.9" fill="#e2e8f0"/>
+    <circle cx="366" cy="254" r="1" fill="#38bdf8"/>
+    <circle cx="468" cy="188" r="0.9" fill="#93c5fd"/>
+    <circle cx="556" cy="244" r="1.1" fill="#a5b4fc"/>
+    <circle cx="642" cy="186" r="0.9" fill="#e2e8f0"/>
+    <circle cx="738" cy="252" r="1" fill="#38bdf8"/>
+    <circle cx="826" cy="184" r="0.9" fill="#93c5fd"/>
+    <circle cx="914" cy="244" r="1" fill="#a5b4fc"/>
+    <circle cx="1002" cy="192" r="0.9" fill="#e2e8f0"/>
+    <circle cx="72" cy="308" r="1" fill="#38bdf8"/>
+    <circle cx="166" cy="352" r="0.9" fill="#93c5fd"/>
+    <circle cx="252" cy="318" r="1.1" fill="#a5b4fc"/>
+    <circle cx="346" cy="368" r="0.9" fill="#e2e8f0"/>
+    <circle cx="434" cy="334" r="1" fill="#38bdf8"/>
+    <circle cx="526" cy="374" r="0.9" fill="#93c5fd"/>
+    <circle cx="618" cy="332" r="1" fill="#a5b4fc"/>
+    <circle cx="708" cy="376" r="0.9" fill="#e2e8f0"/>
+    <circle cx="796" cy="334" r="1" fill="#38bdf8"/>
+    <circle cx="888" cy="366" r="0.9" fill="#93c5fd"/>
+    <circle cx="980" cy="326" r="1" fill="#a5b4fc"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;-12 0;0 0" dur="30s" repeatCount="indefinite"/>
+  </g>
+
+  <g opacity="0.3">
+    <circle cx="118" cy="132" r="0.7" fill="#e2e8f0"/>
+    <circle cx="232" cy="172" r="0.7" fill="#93c5fd"/>
+    <circle cx="344" cy="96" r="0.7" fill="#a5b4fc"/>
+    <circle cx="486" cy="152" r="0.7" fill="#e2e8f0"/>
+    <circle cx="604" cy="112" r="0.7" fill="#93c5fd"/>
+    <circle cx="724" cy="170" r="0.7" fill="#a5b4fc"/>
+    <circle cx="852" cy="106" r="0.7" fill="#e2e8f0"/>
+    <circle cx="970" cy="168" r="0.7" fill="#93c5fd"/>
+    <circle cx="146" cy="278" r="0.7" fill="#a5b4fc"/>
+    <circle cx="308" cy="302" r="0.7" fill="#e2e8f0"/>
+    <circle cx="476" cy="270" r="0.7" fill="#93c5fd"/>
+    <circle cx="654" cy="304" r="0.7" fill="#a5b4fc"/>
+    <circle cx="822" cy="270" r="0.7" fill="#e2e8f0"/>
+    <circle cx="974" cy="300" r="0.7" fill="#93c5fd"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;10 0;0 0" dur="22s" repeatCount="indefinite"/>
+  </g>
+
+  <g fill="none" stroke="#38bdf8" stroke-opacity="0.62" stroke-width="2" filter="url(#tcGlow)">
+    <path d="M90 245 L120 145 L255 80 L330 155 L240 205 L230 325">
+      <animate attributeName="stroke-opacity" values="0.35;0.78;0.35" dur="7s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g fill="none" stroke="#818cf8" stroke-opacity="0.62" stroke-width="2" filter="url(#tcGlow)">
+    <path d="M520 210 L461 148 L707 201 L470 267 L567 298">
+      <animate attributeName="stroke-opacity" values="0.35;0.78;0.35" dur="8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M520 210 L614 111" stroke-opacity="0.45"/>
+  </g>
+
+  <g fill="none" stroke="#f59e0b" stroke-opacity="0.62" stroke-width="2" filter="url(#tcGlow)">
+    <path d="M770 120 L880 90 L1010 145 L930 250 L865 315 L845 220">
+      <animate attributeName="stroke-opacity" values="0.35;0.78;0.35" dur="8.6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g fill="#38bdf8" filter="url(#tcGlow)">
+    <circle cx="120" cy="145" r="4"><animate attributeName="r" values="3.3;4.9;3.3" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="255" cy="80" r="4"><animate attributeName="r" values="3.3;4.9;3.3" dur="4.6s" repeatCount="indefinite"/></circle>
+    <circle cx="330" cy="155" r="4"><animate attributeName="r" values="3.3;4.9;3.3" dur="4.2s" repeatCount="indefinite"/></circle>
+    <circle cx="230" cy="325" r="4"><animate attributeName="r" values="3.3;4.9;3.3" dur="4.9s" repeatCount="indefinite"/></circle>
+    <circle cx="240" cy="205" r="4"><animate attributeName="r" values="3.3;4.9;3.3" dur="4.4s" repeatCount="indefinite"/></circle>
+    <circle cx="90" cy="245" r="4"><animate attributeName="r" values="3.3;4.9;3.3" dur="4.7s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g class="nodeText">
+    <text x="96" y="139">React</text>
+    <text x="230" y="70">Next.js</text>
+    <text x="335" y="149">TypeScript</text>
+    <text x="208" y="341">JavaScript</text>
+    <text x="244" y="221">Zustand</text>
+    <text x="64" y="261">Tailwind</text>
+  </g>
+
+  <g fill="#818cf8" filter="url(#tcGlow)">
+    <circle cx="461" cy="148" r="4"><animate attributeName="r" values="3.2;4.9;3.2" dur="4.2s" repeatCount="indefinite"/></circle>
+    <circle cx="614" cy="111" r="4"><animate attributeName="r" values="3.2;4.9;3.2" dur="4.8s" repeatCount="indefinite"/></circle>
+    <circle cx="707" cy="201" r="4"><animate attributeName="r" values="3.2;4.9;3.2" dur="4.1s" repeatCount="indefinite"/></circle>
+    <circle cx="567" cy="298" r="4"><animate attributeName="r" values="3.2;4.9;3.2" dur="4.9s" repeatCount="indefinite"/></circle>
+    <circle cx="470" cy="267" r="4"><animate attributeName="r" values="3.2;4.9;3.2" dur="4.4s" repeatCount="indefinite"/></circle>
+    <circle cx="520" cy="210" r="4"><animate attributeName="r" values="3.2;4.9;3.2" dur="4.7s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g class="nodeText">
+    <text x="433" y="143">Django</text>
+    <text x="619" y="101">FastAPI</text>
+    <text x="712" y="196">Node.js</text>
+    <text x="575" y="314">Python</text>
+    <text x="470" y="289">PostgreSQL</text>
+    <text x="492" y="219">Redis</text>
+  </g>
+
+  <g fill="#f59e0b" filter="url(#tcGlow)">
+    <circle cx="770" cy="120" r="4"><animate attributeName="r" values="3.1;4.9;3.1" dur="4.1s" repeatCount="indefinite"/></circle>
+    <circle cx="880" cy="90" r="4"><animate attributeName="r" values="3.1;4.9;3.1" dur="4.6s" repeatCount="indefinite"/></circle>
+    <circle cx="1010" cy="145" r="4"><animate attributeName="r" values="3.1;4.9;3.1" dur="4.3s" repeatCount="indefinite"/></circle>
+    <circle cx="930" cy="250" r="4"><animate attributeName="r" values="3.1;4.9;3.1" dur="4.8s" repeatCount="indefinite"/></circle>
+    <circle cx="865" cy="315" r="4"><animate attributeName="r" values="3.1;4.9;3.1" dur="4.2s" repeatCount="indefinite"/></circle>
+    <circle cx="845" cy="220" r="4"><animate attributeName="r" values="3.1;4.9;3.1" dur="4.7s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g class="nodeText">
+    <text x="741" y="116">Docker</text>
+    <text x="885" y="82">Nginx</text>
+    <text x="990" y="142">Gunicorn</text>
+    <text x="934" y="266">Vercel</text>
+    <text x="868" y="332">GitHub CI</text>
+    <text x="815" y="224">Bash</text>
+  </g>
+
+  <g>
+    <circle cx="406" cy="424" r="6" fill="#38bdf8"/>
+    <text x="422" y="429" class="legendText">FRONTEND</text>
+
+    <circle cx="550" cy="424" r="6" fill="#818cf8"/>
+    <text x="566" y="429" class="legendText">BACKEND</text>
+
+    <circle cx="686" cy="424" r="6" fill="#f59e0b"/>
+    <text x="702" y="429" class="legendText">DEPLOYMENT</text>
+  </g>
+</svg>
