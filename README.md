@@ -1,6 +1,8 @@
 <div align="center">
-  <img src="./assets/header.svg" alt="Sohaib Shaukat cosmic header" width="100%" />
-
+    <a href="https://sohaibshaukat.netlify.app">
+    <img src="./assets/header.svg" alt="Sohaib Shaukat cosmic header" width="100%" />
+    </a>
+  
   <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=18&duration=3200&pause=900&color=38BDF8&center=true&vCenter=true&width=860&lines=Full-Stack+SaaS+Engineer;Building+real+products%2C+backend+systems%2C+and+automation+tools;React+%E2%80%A2+Next.js+%E2%80%A2+Django+%E2%80%A2+TypeScript+%E2%80%A2+PostgreSQL" alt="Typing intro" />
 
   <p>
@@ -49,11 +51,11 @@
 
 ## Featured Projects
 
-| <a href="https://github.com/SSKnT/scenecue" target="_blank"><img src="./assets/projects/scenecue-card.svg" alt="SceneCue" width="320" height="186" /></a> | <a href="https://github.com/SSKnT/manify" target="_blank"><img src="./assets/projects/manify-card.png" alt="Manify" width="320" height="186" /></a> |
+| <a href="https://github.com/SSKnT/scene-skipper-backend" target="_blank"><img src="https://opengraph.githubassets.com/1/SSKnT/scene-skipper-backend" alt="SceneCue" width="320" height="186" /></a> | <a href="https://github.com/SSKnT/manify" target="_blank"><img src="./assets/projects/manify-card.png" alt="Manify" width="320" height="186" /></a> |
 | :---: | :---: |
-| **[SceneCue](https://github.com/SSKnT/scenecue)** | **[Manify](https://github.com/SSKnT/manify)** [🌐](https://manify.synplex.studio) |
+| **[SceneCue](https://github.com/SSKnT/scene-skipper-backend)** | **[Manify](https://github.com/SSKnT/manify)** [🌐](https://manify.synplex.studio) |
 | AI extension that skips sensitive scenes with timestamp intelligence. | SaaS for freelancers to manage clients, projects, and budgets. |
-| <a href="https://github.com/SSKnT/utilify-webapp" target="_blank"><img src="./assets/projects/utilify-card.png" alt="Utilify" width="320" height="186" /></a> | <a href="https://github.com/SSKnT/Accelarated-Downoader" target="_blank"><img src="./assets/projects/accelerated-downloader-card.svg" alt="Accelarated Downoader" width="320" height="186" /></a> |
+| <a href="https://github.com/SSKnT/utilify-webapp" target="_blank"><img src="./assets/projects/utilify-card.png" alt="Utilify" width="320" height="186" /></a> | <a href="https://github.com/SSKnT/Accelarated-Downoader" target="_blank"><img src="https://opengraph.githubassets.com/1/SSKnT/Accelarated-Downoader" alt="Accelarated Downloader" width="320" height="186" /></a> |
 | **[Utilify](https://github.com/SSKnT/utilify-webapp)** [🌐](https://utilify-seven.vercel.app) | **[Accelarated Downoader](https://github.com/SSKnT/Accelarated-Downoader)** |
 | Utility platform for text, file, and workflow automation. | High-speed download utility built for practical automation workflows. |
 
