@@ -51,7 +51,7 @@
 
 ## Featured Projects
 
-| <a href="https://github.com/SSKnT/scene-skipper-backend" target="_blank"><img src="./assets/projects/scenecue.png" alt="SceneCue" width="260" height="186" /></a> | <a href="https://github.com/SSKnT/manify" target="_blank"><img src="./assets/projects/manify-card.png" alt="Manify" width="320" height="186" /></a> |
+| <a href="https://github.com/SSKnT/scene-skipper-backend" target="_blank"><img src="./assets/projects/scenecue-1.png" alt="SceneCue" width="260" height="186" /></a> | <a href="https://github.com/SSKnT/manify" target="_blank"><img src="./assets/projects/manify-card.png" alt="Manify" width="320" height="186" /></a> |
 | :---: | :---: |
 | **[SceneCue](https://github.com/SSKnT/scene-skipper-backend)** | **[Manify](https://github.com/SSKnT/manify)** [🌐](https://manify.synplex.studio) |
 | AI extension that gives cues before scenes with timestamp intelligence. | SaaS for freelancers to manage clients, projects, and budgets. |
