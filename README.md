@@ -51,11 +51,11 @@
 
 ## Featured Projects
 
-| <a href="https://github.com/SSKnT/scene-skipper-backend" target="_blank"><img src="./assets/projects/scenecue-1.png" alt="SceneCue" width="260" height="186" /></a> | <a href="https://github.com/SSKnT/manify" target="_blank"><img src="./assets/projects/manify-card.png" alt="Manify" width="320" height="186" /></a> |
+| <a href="https://github.com/SSKnT/scene-skipper-backend" target="_blank"><img src="./assets/projects/scenecue-1.png" alt="SceneCue" width="260" height="186" /></a> | <a href="https://github.com/SSKnT/manify" target="_blank"><img src="./assets/projects/manify-cards.png" alt="Manify" width="320" height="186" /></a> |
 | :---: | :---: |
 | **[SceneCue](https://github.com/SSKnT/scene-skipper-backend)** | **[Manify](https://github.com/SSKnT/manify)** [🌐](https://manify.synplex.studio) |
 | Browser extension that gives cues before scenes with timestamp intelligence. | SaaS for freelancers to manage clients, projects, and budgets. |
-| <a href="https://github.com/SSKnT/utilify-cwebapp" target="_blank"><img src="./assets/projects/utilify-card.png" alt="Utilify" width="320" height="186" /></a> | <a href="https://github.com/SSKnT/Accelarated-Downoader" target="_blank"><img src="https://opengraph.githubassets.com/1/SSKnT/Accelarated-Downoader" alt="Accelarated Downloader" width="320" height="186" /></a> |
+| <a href="https://github.com/SSKnT/utilify-webapp" target="_blank"><img src="./assets/projects/utilify-card.png" alt="Utilify" width="320" height="186" /></a> | <a href="https://github.com/SSKnT/Accelarated-Downoader" target="_blank"><img src="./assets/projects/accelarated_downloader.png" alt="Accelarated Downloader" width="320" height="186" /></a> |
 | **[Utilify](https://github.com/SSKnT/utilify-webapp)** [🌐](https://utilify-seven.vercel.app) | **[Accelarated Downoader](https://github.com/SSKnT/Accelarated-Downoader)** |
 | Utility platform for text, file, and workflow automation. | High-speed download utility built for practical automation workflows. |
 
