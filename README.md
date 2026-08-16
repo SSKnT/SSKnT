@@ -9,10 +9,10 @@
     <a href="https://sohaibshaukat.netlify.app">
       <img src="https://img.shields.io/badge/PORTFOLIO-0f172a?style=for-the-badge&logo=vercel&logoColor=38bdf8&labelColor=020617&color=0f172a" alt="Portfolio" />
     </a>
-    &nbsp;&nbsp;
+    <!-- &nbsp;&nbsp;
     <a href="https://sohaibshaukat.netlify.app/resume.pdf">
       <img src="https://img.shields.io/badge/RESUME-1e1b4b?style=for-the-badge&logo=readthedocs&logoColor=a5b4fc&labelColor=0b1120&color=1e1b4b" alt="Resume" />
-    </a>
+    </a> -->
   </p>
 </div>
 
